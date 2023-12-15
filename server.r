@@ -9,8 +9,7 @@ library(shinydashboardPlus)
 library(shinyWidgets)
 #library(showtext)
 
-#Faltan ajustar los atributos en inglés de sidebar y de descriptivos 
-#Ver que funcione las trabadas y libres 
+
 server = function(input, output, session){
   
   observeEvent(input$Esp, {
