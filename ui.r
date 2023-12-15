@@ -31,7 +31,7 @@ mytheme <- create_theme(
 sidebar <-   dashboardSidebar(sidebarMenu(id = "sidebar", # id important for updateTabItems
                                           menuItem("Attribute", tabName = "Esp1", icon = icon("line-chart"),menuItem('',
                                                                                                                                tabName = 'Esp'),conditionalPanel('input.sidebar == "Esp"',
-                                                                                                                                                                 selectInput('db','Technical characteristics:',choices = c('Interview','Phone'),selected = 'Interview'),
+                                                                                                                                                                 selectInput('db','Technical characteristics:',choices = c('Interview','Telephone'),selected = 'Interview'),
                                                                                                                                                                  selectInput('met','Measure:',choices = c('Mean','Midpoint','Minimum','Maximum'),selected = 'Mean'),
                                                                                                                                                                  
                                                                                                                                                                  selectizeInput("age",label = "Age range:",
@@ -94,7 +94,7 @@ body <- dashboardBody(use_theme(mytheme),#tags$script("document.getElementsByCla
                                          p("The user can select the technical conditions of the recording:"),
                                          p(strong("Technical characteristics:")),
                                          li("Interview: with a bandwidth of 0 to 14000 Hz"), 
-                                         li("Phone: with a bandwidth of 300 to 3400 Hz"),
+                                         li("Telephone: with a bandwidth of 300 to 3400 Hz"),
                                          p(""),
                                          p("Can also include all the corpus speakers or selected by:"),
                                          strong('Measure:'),

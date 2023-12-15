@@ -436,7 +436,7 @@ server = function(input, output, session){
     
     fig <- plot_ly(colors=c(col1, col2))
     fig <- fig %>% add_trace(y = data1$F0, type="box",quartilemethod="linear", name="Interview",color=I(col1))
-    fig <- fig %>% add_trace(y = data2$F0, type="box",quartilemethod="linear", name="Phone",color=I(col2))
+    fig <- fig %>% add_trace(y = data2$F0, type="box",quartilemethod="linear", name="Telephone",color=I(col2))
     fig <- fig %>% layout(title = "F0")
   })
   
@@ -448,7 +448,7 @@ server = function(input, output, session){
     
     fig <- plot_ly(colors=c(col1, col2))
     fig <- fig %>% add_trace(y = data1$F1, type="box",quartilemethod="linear", name="Interview",color=I(col1))
-    fig <- fig %>% add_trace(y = data2$F1, type="box",quartilemethod="linear", name="Phone",color=I(col2))
+    fig <- fig %>% add_trace(y = data2$F1, type="box",quartilemethod="linear", name="Telephone",color=I(col2))
     fig <- fig %>% layout(title = "F1")
     
   })
@@ -461,7 +461,7 @@ server = function(input, output, session){
     
     fig <- plot_ly(colors=c(col1, col2))
     fig <- fig %>% add_trace(y = data1$F2, type="box",quartilemethod="linear", name="Interview",color=I(col1))
-    fig <- fig %>% add_trace(y = data2$F2, type="box",quartilemethod="linear", name="Phone",color=I(col2))
+    fig <- fig %>% add_trace(y = data2$F2, type="box",quartilemethod="linear", name="Telephone",color=I(col2))
     fig <- fig %>% layout(title = "F2")
     
   })
@@ -474,7 +474,7 @@ server = function(input, output, session){
     
     fig <- plot_ly(colors=c(col1, col2))
     fig <- fig %>% add_trace(y = data1$F3, type="box",quartilemethod="linear", name="Interview",color=I(col1))
-    fig <- fig %>% add_trace(y = data2$F3, type="box",quartilemethod="linear", name="Phone",color=I(col2))
+    fig <- fig %>% add_trace(y = data2$F3, type="box",quartilemethod="linear", name="Telephone",color=I(col2))
     fig <- fig %>% layout(title = "F3")
     
   })
@@ -487,7 +487,7 @@ server = function(input, output, session){
     
     fig <- plot_ly(colors=c(col1, col2))
     fig <- fig %>% add_trace(y = data1$F4, type="box",quartilemethod="linear", name="Interview",color=I(col1))
-    fig <- fig %>% add_trace(y = data2$F4, type="box",quartilemethod="linear", name="Phone",color=I(col2))
+    fig <- fig %>% add_trace(y = data2$F4, type="box",quartilemethod="linear", name="Telephone",color=I(col2))
     fig <- fig %>% layout(title = "F4")
   })
   
@@ -499,7 +499,7 @@ server = function(input, output, session){
     
     fig <- plot_ly(colors=c(col1, col2))
     fig <- fig %>% add_trace(y = log(data1$Duration), type="box",quartilemethod="linear", name="Interview",color=I(col1))
-    fig <- fig %>% add_trace(y = log(data2$Duration), type="box",quartilemethod="linear", name="Phone",color=I(col2))
+    fig <- fig %>% add_trace(y = log(data2$Duration), type="box",quartilemethod="linear", name="Telephone",color=I(col2))
     fig <- fig %>% layout(title = "Duration")
   })
   
