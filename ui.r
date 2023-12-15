@@ -144,7 +144,7 @@ body <- dashboardBody(use_theme(mytheme),#tags$script("document.getElementsByCla
                                      )})),
                           tabPanel("Data",br(), dataTableOutput("table")),
                           tabPanel("Descriptive statistics", br(), dataTableOutput("summary")),
-                          tabPanel("Dispersion",
+                          tabPanel("Graphics",
                                    br(),
                                    fluidRow
                                    (
@@ -197,7 +197,6 @@ body <- dashboardBody(use_theme(mytheme),#tags$script("document.getElementsByCla
                         ))
                       ))
 
-#tags$li(class = "dropdown", actionButton("Idioma", "English"))),
 ui <-dashboardPage(
   header = dashboardHeader(title= div(h4('', style="margin: 5px;"))),
   sidebar = sidebar,
