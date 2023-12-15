@@ -1,5 +1,6 @@
 # ARVMex: A web application for obtaining acoustic reference values for forensic studies in Spanish
 
+Fernanda López-Escobedo & N. Sofia Huerta-Pacheco
 
 # ABSTRACT
 
