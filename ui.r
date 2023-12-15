@@ -71,7 +71,7 @@ sidebar <-   dashboardSidebar(sidebarMenu(id = "sidebar", # id important for upd
                                                                                                                                                                  downloadButton('download',"Download data",class = 'butt'),
                                                                                                                                                                  tags$head(tags$style(".butt{background-color:white;color:black !important;} .butt{color: red;}")))
                                           )))
-body <- dashboardBody(use_theme(mytheme),#tags$script("document.getElementsByClassName('sidebar-toggle')[0].style.visibility = 'hidden';"),
+body <- dashboardBody(use_theme(mytheme),
                       tabItems(
                         tabItem("Esp", fluidRow(width = 12, align="center",
                                                 column(12, valueBox(
@@ -201,5 +201,4 @@ ui <-dashboardPage(
   header = dashboardHeader(title= div(h4('', style="margin: 5px;"))),
   sidebar = sidebar,
   body = body,
-  #skin = 'black',
   title = 'Forensic Acoustics')
