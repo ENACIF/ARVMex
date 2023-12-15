@@ -17,15 +17,15 @@ server = function(input, output, session){
     updateTabItems(session, "sidebar", "Esp")
   })
   
-  url1<-"https://docs.google.com/spreadsheets/d/e/2PACX-1vRVeTaa9K3G7KXoWnXNBxq5LPsULLMCCdRfpBzNNku1fmYeKcR8WMVHQFiLqmdCR1OmOc2GVI_1SZBk/pub?gid=1464057887&single=true&output=csv"
-  url2<-"https://docs.google.com/spreadsheets/d/e/2PACX-1vTx033PMe8to7CmJLd44lrTM4A66YRzenzYqKyrSW0iTUmrvfHNasqZphuppU0vk4UlOQltRYFQfLUs/pub?gid=1402339362&single=true&output=csv"
-  url3<-"https://docs.google.com/spreadsheets/d/e/2PACX-1vScfZrY4C5qhYQDjqWaExlNKBbu-zdTIYQO-38PH2p0UlmQ9HRMaXOvkd46MXo9nykP02Qr1ouyuF83/pub?gid=1126928116&single=true&output=csv"
-  url4<-"https://docs.google.com/spreadsheets/d/e/2PACX-1vSB-5rVCRxV-94tPLL2mb50AsEa5Squ8P7Y06rhGlvLLS4tPwDwkvkMd5TNvZiokzNbXJBP_5v37ltX/pub?gid=1165495096&single=true&output=csv"
+  url1<-"File_1"
+  url2<-"File_2"
+  url3<-"File_3"
+  url4<-"File_4"
   
-  url5<-"https://docs.google.com/spreadsheets/d/e/2PACX-1vTBnq-auZ3YBvRq8MalBFROGfYYniOT6DLTZJ8OAv_5zRrZevKFoe7bsJXnIciYLjJGHWeVFoaeSXMq/pub?gid=1688112278&single=true&output=csv"
-  url6<-"https://docs.google.com/spreadsheets/d/e/2PACX-1vQpPfimes1rdCUL8aVpjfigBPwJaya13KGbuspH8hT6M7k6ItqNBUZdoHFsrI6brFsFfknuUfPrZmzk/pub?gid=1866019989&single=true&output=csv"
-  url7<-"https://docs.google.com/spreadsheets/d/e/2PACX-1vRY-7N9uJTiCWEGiV6hI1xQkJQF0PqQhjFDZdNpz05UuAIxKLpcQvn_0Kr5ggx9E7euhdnOllDeQiTc/pub?gid=391738590&single=true&output=csv"
-  url8<-"https://docs.google.com/spreadsheets/d/e/2PACX-1vSNrUsShYXmvDa6Y97hpAR-dNflmAhV_egFUyXNL2lyzH-jUEm5mESSJJ2HxDhSsIVc3FjjvZYvIfkL/pub?gid=674561457&single=true&output=csv"
+  url5<-"File_5"
+  url6<-"File_6"
+  url7<-"File_7"
+  url8<-"File_8"
   
   ad1 <- read_csv(url1)
   ad2 <- read_csv(url2)
