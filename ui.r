@@ -89,8 +89,6 @@ body <- dashboardBody(use_theme(mytheme),
                                             )),
                                    withTags({
                                      div(class="header", checked=NA,
-                                         #h5("Los datos a partir de los cuales se generan las estadísticas descriptivas y las gráficas de esta herramienta son del Corpus de Lengua Oral del Español de México (CLOE México). 
-                                         #  Asimimo, las etiquetas de esta herramienta se basan en las que se utilizan en la segmentación y etiquetado del CLOE México."),
                                          p("The user can select the technical conditions of the recording:"),
                                          p(strong("Technical characteristics:")),
                                          li("Interview: with a bandwidth of 0 to 14000 Hz"), 
